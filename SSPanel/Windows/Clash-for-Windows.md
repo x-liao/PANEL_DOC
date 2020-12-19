@@ -8,8 +8,7 @@ Clash for Windows 是一个拥有 GUI 界面基于 Clash 可自定义规则的 W
 
 以下是各平台该应用的下载地址。
 
-- Windows：[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
-- ...
+- Windows：[Clash for Windows](/ssr-download/ClashforWindows.zip)
 
 ## 获取订阅
 
@@ -21,27 +20,22 @@ Clash for Windows 是一个拥有 GUI 界面基于 Clash 可自定义规则的 W
 
 ## 配置 Clash for Windows
 
-打开 Clash for Windows，从任务栏点击 Clash for Windows 图标以显示主页面。
+1. 打开 Clash for Windows，点击侧边栏的【配置文件】，将订阅链接粘贴在订阅订阅链接框，然后点击【下载】
+![1](https://i.loli.net/2020/12/19/fgC1Xz6nUctqIpO.png ':size=600')
 
-![1](https://i.loli.net/2019/02/13/5c63d6ccd2460.png ':size=600')
+2. 鼠标点击选择刚下载的配置文件
 
-随后按 1 -> 2 -> 3 的顺序从侧边栏进入配置管理页面，并在该输入框中粘贴上方 **[获取订阅](#获取订阅)** 中的订阅链接并点击 **Download**。
-
-![2](https://i.loli.net/2019/02/13/5c63d79cd7854.png ':size=600')
-
-待下载完成后单击刚刚下载的配置文件，它会变成橙色，表示当前正在使用。
-
-![3](https://i.loli.net/2019/02/13/5c63d9b12aa2b.png ':size=600')
-
-随后从侧边栏回到 **General**，勾选下方的 **System Proxy** (设为系统代理) 以及 **Auto Launch** (开机自启)。
-
-![4](https://i.loli.net/2019/02/13/5c63dbfe7e45e.png ':size=600')
+3. 点击侧边栏的【代理设置】，上方选择 **Rule**，然后在下方的 **国外流量** 中选择 你中意的节点
+![2](https://i.loli.net/2020/12/19/dSxnWIByklDcpKT.png ':size=600')
 
 ## 开始使用
 
-打开 Clash for Windows，从侧边栏进入 **Proxies**，上方选择 **Rule**，然后在下方的 **Proxy 策略组** 中选择 AUTO 或者你中意的节点即可。
+点击侧边栏的【常规设置】，打开【设置为系统代理】的开关即可开始上网不用时关掉
+![3](https://i.loli.net/2020/12/19/LkiA5DI68X2uMUF.png ':size=600')
 
 ## 其他注意
+
+在退出Clash或者电脑关机前请务必将【设置为系统代理】的开关关掉，否则可能会影响正常上网，如果遇到关闭Clash后一些网站打不开的情况，将【设置为系统代理】的开关关掉即可
 
 请不要修改 `~/.config/clash/config.yml` 中的端口配置，否则会导致应用异常。
 
